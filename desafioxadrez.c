@@ -26,7 +26,15 @@ int main (){
         rainha ++;
     } while (rainha < 8);
 
-   
+    // Loop aninhado para o cavalo:
+    printf ("\nMovimentação do Cavalo: \n");
+    while (cavalo < 1){
+        for (int i = 0; i < 2; i++){
+            printf ("Baixo\n");
+        }
+        cavalo++;
+        printf ("Esquerda\n");
+    }
 
   return 0;
 }
